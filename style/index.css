@@ -1,16 +1,49 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 #nevbar{
     background-color:rgb(1, 1, 61);
     height: 60px;
-    width: auto
+    width: auto;
+    display: flex;
+    flex-direction: right;
 }
+#logo{
+    color: aliceblue;
+    font-size: 25px;
+    
+}
+.nev-menu a{
+    text-decoration: none;
+    color: aliceblue;
+}
+/* background image */
 .main-section{
     background-image: url('../images/13311397_v617batch2-kul-05-technology.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
-    height: 1000px;
+    height: 1100px;
+    padding: 148px ;
+}
+.heading{
+    font-size: 20px;
+    color:aliceblue;
+    margin-bottom: 10px;
+
+}
+.heading h1{
+    margin-bottom: 30px;
+}
+.form{
+    background-color:rgb(18, 18, 76);
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    padding: 25px;
+}
+.login{
+    color:aqua;
 }
