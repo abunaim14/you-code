@@ -16,9 +16,7 @@
 <body>
     <!-- nevbar section -->
     <header id="nevbar">
-        <div id="logo">
-            <span><strong>YouCode</strong></span>
-        </div>
+        <h4 id="logo">youCode</h4>
         <div class="nev-menu">
             <a href="#">Sign In</a>
             <a href="#">Sign Up</a>
@@ -32,17 +30,21 @@
             <p>A Collaborative Coding Challenges platform aims to foster a supportive community of learners, <br> enthusiasts, and experienced developers, providing an interactive and engaging space for coding practice and skill development.</p>
         </div>
         <!-- login form -->
-        <div class="form">
-            <h3 class="login">Login YouCode</h3>
-            <form>
-                <input type="email" name="email" placeholder="Your email">
+        <div class="fposition">
+            <div class="form">
+                <h3 class="login">Login YouCode</h3>
+                <form id="log-page">
+                    <input type="email" name="email" class="type" placeholder="Your email">
+                    <br>
+                    <input type="password" name="password" class="type" placeholder="Your password">
+                    <br>
+                    <input type="button" name="btn" class="btn" value="Sign In">
+                </form>
+                <a href="#">Forgotten password?</a>
                 <br>
-                <input type="password" name="password" placeholder="Your password">
-                <br>
-                <input type="button" name="btn" value="Sign In">
-            </form>
+                <button class="btn">Sign up</button>
+            </div>
         </div>
-
     </main>
     <footer>
         <span>&copy; Copyright</span>
