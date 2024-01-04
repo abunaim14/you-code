@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+}
+#nevbar{
+    background-color:rgb(1, 1, 61);
+    height: 60px;
+    width: auto
+}
+.main-section{
+    background-image: url('../images/13311397_v617batch2-kul-05-technology.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 1000px;
+}
